@@ -28,7 +28,7 @@ export default function Container() {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "/predict_sentiment",
+      url: "https://robertacheck-production.up.railway.app/predict_sentiment",
       data: {
         text: text
       }
